@@ -15,6 +15,7 @@ namespace primeiraguerra.desk
         public Menu()
         {
             InitializeComponent();
+
         }
 
         private void fase1ToolStripMenuItem_Click(object sender, EventArgs e)
@@ -39,6 +40,11 @@ namespace primeiraguerra.desk
             this.Visible = false;
             tela_fase3.ShowDialog();
             this.Visible = true;
+        }
+
+        private void Menu_Load(object sender, EventArgs e)
+        {
+            this.Visible = false;
         }
     }
 }

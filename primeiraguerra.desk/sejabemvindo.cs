@@ -27,5 +27,13 @@ namespace primeiraguerra.desk
             InitializeComponent();
             
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Menu tela_principal = new Menu();
+            this.Visible = false;
+            tela_principal.ShowDialog();
+            this.Close();
+        }
     }
 }
