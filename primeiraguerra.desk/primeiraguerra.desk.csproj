@@ -121,5 +121,11 @@
   <ItemGroup>
     <None Include="Resources\depositphotos_10091810-stock-photo-aged-vintage-world-map-texture.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tropas-belgas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16740821.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
