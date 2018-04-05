@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace primeiraguerra.desk
 {
-    public partial class Fase2 : Form
+    public partial class FASE1 : Form
     {
-        public Fase2()
+        public FASE1()
         {
             InitializeComponent();
         }
