@@ -63,6 +63,16 @@ namespace primeiraguerra.desk.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap depositphotos_10091810_stock_photo_aged_vintage_world_map_texture {
+            get {
+                object obj = ResourceManager.GetObject("depositphotos_10091810-stock-photo-aged-vintage-world-map-texture", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap qui {
             get {
                 object obj = ResourceManager.GetObject("qui", resourceCulture);
