@@ -1,6 +1,6 @@
 ﻿namespace primeiraguerra.desk
 {
-    partial class Form2
+    partial class Fase2
     {
         /// <summary>
         /// Required designer variable.
@@ -28,15 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Fase2));
             this.SuspendLayout();
             // 
-            // Form2
+            // Fase2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(568, 456);
-            this.Name = "Form2";
-            this.Text = "Form2";
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(639, 456);
+            this.Name = "Fase2";
+            this.Text = "Fase2";
+            this.Load += new System.EventHandler(this.Fase2_Load);
             this.ResumeLayout(false);
 
         }
