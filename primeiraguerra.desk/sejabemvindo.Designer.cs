@@ -68,9 +68,9 @@
             this.label2.Font = new System.Drawing.Font("Times New Roman", 28F);
             this.label2.Location = new System.Drawing.Point(481, 415);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(224, 43);
+            this.label2.Size = new System.Drawing.Size(234, 43);
             this.label2.TabIndex = 2;
-            this.label2.Text = "novo jogador.";
+            this.label2.Text = "novo jogador..";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // sejabemvindo
