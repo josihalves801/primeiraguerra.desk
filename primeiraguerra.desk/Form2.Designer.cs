@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
+<<<<<<< HEAD
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
@@ -275,6 +276,10 @@
             this.label3.TabIndex = 0;
             this.label3.Text = "1) Em que ano ocorreu a Primeira Guerra Mundial?";
             // 
+=======
+            this.SuspendLayout();
+            // 
+>>>>>>> eb3bd3688c4a7a5e42834a94e973b56af2270407
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -283,8 +288,11 @@
             this.BackgroundImage = global::primeiraguerra.desk.Properties.Resources._16740821;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1184, 801);
+<<<<<<< HEAD
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
+=======
+>>>>>>> eb3bd3688c4a7a5e42834a94e973b56af2270407
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form2";
             this.Text = "fase1";
@@ -294,7 +302,6 @@
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
