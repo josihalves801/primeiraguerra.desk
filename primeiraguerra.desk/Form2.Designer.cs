@@ -31,15 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.btntentaragain = new System.Windows.Forms.Button();
-            this.btnveriQ01 = new System.Windows.Forms.Button();
-            this.Q01Opcao4 = new System.Windows.Forms.RadioButton();
-            this.Q01Opcao3 = new System.Windows.Forms.RadioButton();
-            this.Q01Opcao2 = new System.Windows.Forms.RadioButton();
-            this.q01Opcao1 = new System.Windows.Forms.RadioButton();
-            this.label2 = new System.Windows.Forms.Label();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.panel3 = new System.Windows.Forms.Panel();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
@@ -49,6 +40,15 @@
             this.radioButton11 = new System.Windows.Forms.RadioButton();
             this.radioButton12 = new System.Windows.Forms.RadioButton();
             this.label5 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btntentaragain = new System.Windows.Forms.Button();
+            this.btnveriQ01 = new System.Windows.Forms.Button();
+            this.Q01Opcao4 = new System.Windows.Forms.RadioButton();
+            this.Q01Opcao3 = new System.Windows.Forms.RadioButton();
+            this.Q01Opcao2 = new System.Windows.Forms.RadioButton();
+            this.q01Opcao1 = new System.Windows.Forms.RadioButton();
+            this.label2 = new System.Windows.Forms.Label();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
@@ -82,6 +82,113 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(631, 409);
             this.panel1.TabIndex = 1;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel3.Controls.Add(this.button8);
+            this.panel3.Controls.Add(this.button9);
+            this.panel3.Controls.Add(this.button10);
+            this.panel3.Controls.Add(this.radioButton9);
+            this.panel3.Controls.Add(this.radioButton10);
+            this.panel3.Controls.Add(this.radioButton11);
+            this.panel3.Controls.Add(this.radioButton12);
+            this.panel3.Controls.Add(this.label5);
+            this.panel3.Location = new System.Drawing.Point(37, 118);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(631, 409);
+            this.panel3.TabIndex = 9;
+            // 
+            // button8
+            // 
+            this.button8.BackgroundImage = global::primeiraguerra.desk.Properties.Resources.proximo_botao_318_42554;
+            this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button8.Location = new System.Drawing.Point(343, 327);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(75, 61);
+            this.button8.TabIndex = 7;
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // button9
+            // 
+            this.button9.BackgroundImage = global::primeiraguerra.desk.Properties.Resources.Refresh_Pfeil_groß;
+            this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button9.Enabled = false;
+            this.button9.Location = new System.Drawing.Point(146, 327);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(79, 64);
+            this.button9.TabIndex = 6;
+            this.button9.UseVisualStyleBackColor = true;
+            // 
+            // button10
+            // 
+            this.button10.BackgroundImage = global::primeiraguerra.desk.Properties.Resources.verificar_contorno_preto_marca_318_49519;
+            this.button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button10.Location = new System.Drawing.Point(248, 327);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(72, 61);
+            this.button10.TabIndex = 5;
+            this.button10.UseVisualStyleBackColor = true;
+            // 
+            // radioButton9
+            // 
+            this.radioButton9.AutoSize = true;
+            this.radioButton9.Font = new System.Drawing.Font("Times New Roman", 27F);
+            this.radioButton9.Location = new System.Drawing.Point(175, 264);
+            this.radioButton9.Name = "radioButton9";
+            this.radioButton9.Size = new System.Drawing.Size(209, 45);
+            this.radioButton9.TabIndex = 4;
+            this.radioButton9.TabStop = true;
+            this.radioButton9.Text = "1918 - 1920";
+            this.radioButton9.UseVisualStyleBackColor = true;
+            // 
+            // radioButton10
+            // 
+            this.radioButton10.AutoSize = true;
+            this.radioButton10.Font = new System.Drawing.Font("Times New Roman", 27F);
+            this.radioButton10.Location = new System.Drawing.Point(175, 213);
+            this.radioButton10.Name = "radioButton10";
+            this.radioButton10.Size = new System.Drawing.Size(209, 45);
+            this.radioButton10.TabIndex = 3;
+            this.radioButton10.TabStop = true;
+            this.radioButton10.Text = "1939 - 1945";
+            this.radioButton10.UseVisualStyleBackColor = true;
+            // 
+            // radioButton11
+            // 
+            this.radioButton11.AutoSize = true;
+            this.radioButton11.Font = new System.Drawing.Font("Times New Roman", 27F);
+            this.radioButton11.Location = new System.Drawing.Point(175, 166);
+            this.radioButton11.Name = "radioButton11";
+            this.radioButton11.Size = new System.Drawing.Size(209, 45);
+            this.radioButton11.TabIndex = 2;
+            this.radioButton11.TabStop = true;
+            this.radioButton11.Text = "1914 - 1918";
+            this.radioButton11.UseVisualStyleBackColor = true;
+            // 
+            // radioButton12
+            // 
+            this.radioButton12.AutoSize = true;
+            this.radioButton12.Font = new System.Drawing.Font("Times New Roman", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton12.Location = new System.Drawing.Point(175, 118);
+            this.radioButton12.Name = "radioButton12";
+            this.radioButton12.Size = new System.Drawing.Size(217, 46);
+            this.radioButton12.TabIndex = 1;
+            this.radioButton12.TabStop = true;
+            this.radioButton12.Text = "1920 - 1924";
+            this.radioButton12.UseVisualStyleBackColor = true;
+            // 
+            // label5
+            // 
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 27F);
+            this.label5.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.label5.Location = new System.Drawing.Point(89, 20);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(481, 95);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "2) Qual desses fatores foi o estopim para ocorrer a Primeira Guerra Mundial?";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // button1
             // 
@@ -176,220 +283,6 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "1) Em que ano ocorreu a Primeira Guerra Mundial?";
             this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
-<<<<<<< HEAD
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel3.Controls.Add(this.button8);
-            this.panel3.Controls.Add(this.button9);
-            this.panel3.Controls.Add(this.button10);
-            this.panel3.Controls.Add(this.radioButton9);
-            this.panel3.Controls.Add(this.radioButton10);
-            this.panel3.Controls.Add(this.radioButton11);
-            this.panel3.Controls.Add(this.radioButton12);
-            this.panel3.Controls.Add(this.label5);
-            this.panel3.Location = new System.Drawing.Point(3, 3);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(631, 409);
-            this.panel3.TabIndex = 9;
-            // 
-            // button8
-            // 
-            this.button8.BackgroundImage = global::primeiraguerra.desk.Properties.Resources.proximo_botao_318_42554;
-            this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button8.Location = new System.Drawing.Point(343, 327);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 61);
-            this.button8.TabIndex = 7;
-            this.button8.UseVisualStyleBackColor = true;
-            // 
-            // button9
-            // 
-            this.button9.BackgroundImage = global::primeiraguerra.desk.Properties.Resources.Refresh_Pfeil_groß;
-            this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button9.Enabled = false;
-            this.button9.Location = new System.Drawing.Point(146, 327);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(79, 64);
-            this.button9.TabIndex = 6;
-            this.button9.UseVisualStyleBackColor = true;
-            // 
-            // button10
-            // 
-            this.button10.BackgroundImage = global::primeiraguerra.desk.Properties.Resources.verificar_contorno_preto_marca_318_49519;
-            this.button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button10.Location = new System.Drawing.Point(248, 327);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(72, 61);
-            this.button10.TabIndex = 5;
-            this.button10.UseVisualStyleBackColor = true;
-            // 
-            // radioButton9
-            // 
-            this.radioButton9.AutoSize = true;
-            this.radioButton9.Font = new System.Drawing.Font("Times New Roman", 27F);
-            this.radioButton9.Location = new System.Drawing.Point(175, 264);
-            this.radioButton9.Name = "radioButton9";
-            this.radioButton9.Size = new System.Drawing.Size(209, 45);
-            this.radioButton9.TabIndex = 4;
-            this.radioButton9.TabStop = true;
-            this.radioButton9.Text = "1918 - 1920";
-            this.radioButton9.UseVisualStyleBackColor = true;
-            // 
-            // radioButton10
-            // 
-            this.radioButton10.AutoSize = true;
-            this.radioButton10.Font = new System.Drawing.Font("Times New Roman", 27F);
-            this.radioButton10.Location = new System.Drawing.Point(175, 213);
-            this.radioButton10.Name = "radioButton10";
-            this.radioButton10.Size = new System.Drawing.Size(209, 45);
-            this.radioButton10.TabIndex = 3;
-            this.radioButton10.TabStop = true;
-            this.radioButton10.Text = "1939 - 1945";
-            this.radioButton10.UseVisualStyleBackColor = true;
-            // 
-            // radioButton11
-            // 
-            this.radioButton11.AutoSize = true;
-            this.radioButton11.Font = new System.Drawing.Font("Times New Roman", 27F);
-            this.radioButton11.Location = new System.Drawing.Point(175, 166);
-            this.radioButton11.Name = "radioButton11";
-            this.radioButton11.Size = new System.Drawing.Size(209, 45);
-            this.radioButton11.TabIndex = 2;
-            this.radioButton11.TabStop = true;
-            this.radioButton11.Text = "1914 - 1918";
-            this.radioButton11.UseVisualStyleBackColor = true;
-            // 
-            // radioButton12
-            // 
-            this.radioButton12.AutoSize = true;
-            this.radioButton12.Font = new System.Drawing.Font("Times New Roman", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton12.Location = new System.Drawing.Point(175, 118);
-            this.radioButton12.Name = "radioButton12";
-            this.radioButton12.Size = new System.Drawing.Size(217, 46);
-            this.radioButton12.TabIndex = 1;
-            this.radioButton12.TabStop = true;
-            this.radioButton12.Text = "1920 - 1924";
-            this.radioButton12.UseVisualStyleBackColor = true;
-            // 
-            // label5
-            // 
-            this.label5.Font = new System.Drawing.Font("Times New Roman", 27F);
-            this.label5.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.label5.Location = new System.Drawing.Point(89, 20);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(481, 95);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "2) Qual desses fatores foi o estopim para ocorrer a Primeira Guerra Mundial?";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
-=======
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel2.Controls.Add(this.button2);
-            this.panel2.Controls.Add(this.button3);
-            this.panel2.Controls.Add(this.button4);
-            this.panel2.Controls.Add(this.radioButton1);
-            this.panel2.Controls.Add(this.radioButton2);
-            this.panel2.Controls.Add(this.radioButton3);
-            this.panel2.Controls.Add(this.radioButton4);
-            this.panel2.Controls.Add(this.label3);
-            this.panel2.Location = new System.Drawing.Point(349, 346);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(587, 365);
-            this.panel2.TabIndex = 8;
-            this.panel2.Visible = false;
-            // 
-            // button2
-            // 
-            this.button2.BackgroundImage = global::primeiraguerra.desk.Properties.Resources.proximo_botao_318_42554;
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.Location = new System.Drawing.Point(402, 252);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(79, 61);
-            this.button2.TabIndex = 7;
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.BackgroundImage = global::primeiraguerra.desk.Properties.Resources.symbol_909831_960_720;
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button3.Enabled = false;
-            this.button3.Location = new System.Drawing.Point(402, 116);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(79, 64);
-            this.button3.TabIndex = 6;
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.BackgroundImage = global::primeiraguerra.desk.Properties.Resources.images;
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button4.Location = new System.Drawing.Point(402, 186);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(79, 61);
-            this.button4.TabIndex = 5;
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(77, 252);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(82, 17);
-            this.radioButton1.TabIndex = 4;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "1918 - 1920";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(77, 201);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(82, 17);
-            this.radioButton2.TabIndex = 3;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "1939 - 1945";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton3
-            // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(77, 154);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(82, 17);
-            this.radioButton3.TabIndex = 2;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "1914 - 1918";
-            this.radioButton3.UseVisualStyleBackColor = true;
-            // 
-            // radioButton4
-            // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(77, 106);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(82, 17);
-            this.radioButton4.TabIndex = 1;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "1920 - 1924";
-            this.radioButton4.UseVisualStyleBackColor = true;
-            // 
-            // label3
-            // 
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.label3.Location = new System.Drawing.Point(74, 57);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(458, 28);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "1) Em que ano ocorreu a Primeira Guerra Mundial?";
-            // 
-            this.SuspendLayout();
->>>>>>> 0da4036d071d565e96c847cc4fc030479639b266
             // 
             // Form2
             // 
