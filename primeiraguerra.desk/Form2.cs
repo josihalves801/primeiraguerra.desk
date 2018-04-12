@@ -13,11 +13,13 @@ namespace primeiraguerra.desk
     public partial class Form2 : Form
     {
         private int q01tenta;
+        private int q02tenta;
 
         public Form2()
         {
             InitializeComponent();
             q01tenta = 0;
+            q02tenta = 0;
         }
 
         private void Fase2_Load(object sender, EventArgs e)
@@ -72,7 +74,7 @@ namespace primeiraguerra.desk
         private void button1_Click(object sender, EventArgs e)
         {
             panel1.Visible = false;
-            panel3.Visible = true;
+            panel2.Visible = true;
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -88,6 +90,54 @@ namespace primeiraguerra.desk
         private void label5_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void radioButton11_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            if (q02r1.Checked)
+            {
+                q02r1.BackColor = Color.LightCoral;
+            }
+            else if (q02r2.Checked)
+            {
+                q02r2.BackColor = Color.LightCoral;
+            }
+            else if (q02r3.Checked)
+            {
+                q02r3.BackColor = Color.LightCoral;
+
+            }
+            else if (q02r4.Checked)
+            {
+                q02r4.BackColor = Color.LightGreen;
+            }
+            else if (q02r5.Checked)
+            {
+                q02r5.BackColor = Color.LightCoral;
+            }
+            btntente.Enabled = true;
+            button10.Enabled = false;
+            q02tenta += 1;
+           
+        }
+
+        private void btntente_Click(object sender, EventArgs e)
+        {
+            q02r1.BackColor = Color.Transparent;
+            q02r2.BackColor = Color.Transparent;
+            q02r3.BackColor = Color.Transparent;
+            q02r4.BackColor = Color.Transparent;
+            q02r5.BackColor = Color.Transparent;
+            if (q02tenta < 2)
+            {
+                button10.Enabled = true;
+                btntente.Enabled = false;
+            }
         }
     }
 }
