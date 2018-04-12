@@ -93,6 +93,16 @@ namespace primeiraguerra.desk.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap proximo_botao_318_42554 {
+            get {
+                object obj = ResourceManager.GetObject("proximo-botao_318-42554", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap qui {
             get {
                 object obj = ResourceManager.GetObject("qui", resourceCulture);

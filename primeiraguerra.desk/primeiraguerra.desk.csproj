@@ -133,5 +133,8 @@
   <ItemGroup>
     <None Include="Resources\symbol-909831_960_720.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\proximo-botao_318-42554.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
