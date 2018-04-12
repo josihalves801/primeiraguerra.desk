@@ -136,5 +136,14 @@
   <ItemGroup>
     <None Include="Resources\proximo-botao_318-42554.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\verificar-contorno-preto-marca_318-49519.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\160_F_109916990_tayfCWL9Fq32YyRxf2bEM5FOGJlc8Iis.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refresh-Pfeil_groß.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

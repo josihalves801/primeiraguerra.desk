@@ -71,6 +71,22 @@ namespace primeiraguerra.desk
 
         private void button1_Click(object sender, EventArgs e)
         {
+            panel1.Visible = false;
+            panel3.Visible = true;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void q01Opcao1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
 
         }
     }

@@ -118,6 +118,15 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="proximo-botao_318-42554" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\proximo-botao_318-42554.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="verificar-contorno-preto-marca_318-49519" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\verificar-contorno-preto-marca_318-49519.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="160_F_109916990_tayfCWL9Fq32YyRxf2bEM5FOGJlc8Iis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\160_F_109916990_tayfCWL9Fq32YyRxf2bEM5FOGJlc8Iis.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="qui" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\qui.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -136,7 +145,7 @@
   <data name="depositphotos_10091810-stock-photo-aged-vintage-world-map-texture" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\depositphotos_10091810-stock-photo-aged-vintage-world-map-texture.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="proximo-botao_318-42554" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\proximo-botao_318-42554.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Refresh-Pfeil_groß" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Refresh-Pfeil_groß.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

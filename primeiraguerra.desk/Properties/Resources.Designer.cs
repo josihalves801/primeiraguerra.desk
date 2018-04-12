@@ -63,6 +63,16 @@ namespace primeiraguerra.desk.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _160_F_109916990_tayfCWL9Fq32YyRxf2bEM5FOGJlc8Iis {
+            get {
+                object obj = ResourceManager.GetObject("160_F_109916990_tayfCWL9Fq32YyRxf2bEM5FOGJlc8Iis", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _16740821 {
             get {
                 object obj = ResourceManager.GetObject("16740821", resourceCulture);
@@ -113,6 +123,16 @@ namespace primeiraguerra.desk.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Refresh_Pfeil_groß {
+            get {
+                object obj = ResourceManager.GetObject("Refresh-Pfeil_groß", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap symbol_909831_960_720 {
             get {
                 object obj = ResourceManager.GetObject("symbol-909831_960_720", resourceCulture);
@@ -126,6 +146,16 @@ namespace primeiraguerra.desk.Properties {
         internal static System.Drawing.Bitmap tropas_belgas {
             get {
                 object obj = ResourceManager.GetObject("tropas-belgas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap verificar_contorno_preto_marca_318_49519 {
+            get {
+                object obj = ResourceManager.GetObject("verificar-contorno-preto-marca_318-49519", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
