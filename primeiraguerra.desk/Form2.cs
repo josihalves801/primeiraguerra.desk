@@ -89,5 +89,15 @@ namespace primeiraguerra.desk
         {
 
         }
+
+        private void radioButton9_CheckedChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void radioButton11_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
