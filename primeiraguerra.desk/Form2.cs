@@ -98,6 +98,16 @@ namespace primeiraguerra.desk
 
         }
 
+
+        private void radioButton9_CheckedChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void radioButton11_CheckedChanged(object sender, EventArgs e)
+        {
+
+
         private void radioButton11_CheckedChanged(object sender, EventArgs e)
         {
 
@@ -145,6 +155,7 @@ namespace primeiraguerra.desk
                 btntente.Enabled = false;
             }
         }
+<<<<<<< HEAD
 
         private void label3_Click(object sender, EventArgs e)
         {
@@ -304,3 +315,6 @@ namespace primeiraguerra.desk
 
 }
       
+=======
+    }
+>>>>>>> 466bd26271b9e94ef582162322571fad2e25ec2e
