@@ -145,5 +145,11 @@
   <ItemGroup>
     <None Include="Resources\Refresh-Pfeil_groß.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filmes-sobre-primeira-guerra-mundial.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

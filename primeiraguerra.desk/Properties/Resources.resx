@@ -130,6 +130,12 @@
   <data name="qui" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\qui.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="download (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Refresh-Pfeil_groß" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Refresh-Pfeil_groß.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="16740821" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\16740821.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -145,7 +151,7 @@
   <data name="depositphotos_10091810-stock-photo-aged-vintage-world-map-texture" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\depositphotos_10091810-stock-photo-aged-vintage-world-map-texture.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Refresh-Pfeil_groß" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Refresh-Pfeil_groß.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="filmes-sobre-primeira-guerra-mundial" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\filmes-sobre-primeira-guerra-mundial.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

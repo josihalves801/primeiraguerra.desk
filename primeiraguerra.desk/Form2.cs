@@ -107,11 +107,8 @@ namespace primeiraguerra.desk
         private void radioButton11_CheckedChanged(object sender, EventArgs e)
         {
 
-
-        private void radioButton11_CheckedChanged(object sender, EventArgs e)
-        {
-
         }
+        
 
         private void button10_Click(object sender, EventArgs e)
         {
@@ -136,27 +133,27 @@ namespace primeiraguerra.desk
             {
                 q02r5.BackColor = Color.LightCoral;
             }
-            btntente.Enabled = true;
-            button10.Enabled = false;
-            q02tenta += 1;
-
+            {
+                btntente.Enabled = true;
+                button10.Enabled = false;
+                q02tenta += 1;
+            }
         }
 
         private void btntente_Click_1(object sender, EventArgs e)
-        {
-            q02r1.BackColor = Color.Transparent;
-            q02r2.BackColor = Color.Transparent;
-            q02r3.BackColor = Color.Transparent;
-            q02r4.BackColor = Color.Transparent;
-            q02r5.BackColor = Color.Transparent;
-            if (q02tenta < 2)
             {
-                button10.Enabled = true;
-                btntente.Enabled = false;
+                q02r1.BackColor = Color.Transparent;
+                q02r2.BackColor = Color.Transparent;
+                q02r3.BackColor = Color.Transparent;
+                q02r4.BackColor = Color.Transparent;
+                q02r5.BackColor = Color.Transparent;
+                if (q02tenta < 2)
+                {
+                    button10.Enabled = true;
+                    btntente.Enabled = false;
+                }
             }
-        }
-<<<<<<< HEAD
-
+            
         private void label3_Click(object sender, EventArgs e)
         {
 
@@ -315,6 +312,4 @@ namespace primeiraguerra.desk
 
 }
       
-=======
-    }
->>>>>>> 466bd26271b9e94ef582162322571fad2e25ec2e
+
