@@ -151,5 +151,50 @@
   <ItemGroup>
     <None Include="Resources\filmes-sobre-primeira-guerra-mundial.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guerra2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Check-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\verificar-contorno-preto-marca_318-495191.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Segunda-Guerra-Mundial.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.2g.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Segunda-Guerra-Mundial1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guerra2_%281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Segunda-Guerra-Mundial2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1066310568.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.1g.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s9bPVaK.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

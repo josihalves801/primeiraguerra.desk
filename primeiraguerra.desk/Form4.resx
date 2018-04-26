@@ -117,6 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label2.Text" xml:space="preserve">
+    <value>3)Assinale a alternativa que, respectivamente, completa as lacunas: 
+Na segunda metade do século , a junção entre __ e capitalismo __ proporcionou a integração _ mundial, 
+favorecendo assim, principalmente, as nações que haviam começado seu processo de _.</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>4)Assinale a alternativa que, respectivamente, completa as lacunas:
+A guerra gerou aproximadamente milhões de mortos, o ____ de feridos, arrasou ____ , 
+destruiu indústrias, além de gerar grandes prejuízos __ em todos os países envolvidos.</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

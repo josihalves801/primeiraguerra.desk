@@ -214,7 +214,7 @@ namespace primeiraguerra.desk
 
         private void btn_proximo_Click(object sender, EventArgs e)
         {
-            panel1.Visible = false;
+            
             panel2.Visible = false;
             panel3.Visible = true;
         }
@@ -307,6 +307,18 @@ namespace primeiraguerra.desk
                 veri.Enabled = true;
                 btnt.Enabled = false;
             }
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            panel5.Visible = false;
+            p2.Visible = true;
+            
+        }
+
+        private void p1_Click(object sender, EventArgs e)
+        {
+           
         }
     }
 

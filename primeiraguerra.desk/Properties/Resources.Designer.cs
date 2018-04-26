@@ -63,6 +63,36 @@ namespace primeiraguerra.desk.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1_1g {
+            get {
+                object obj = ResourceManager.GetObject("1.1g", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1_2g {
+            get {
+                object obj = ResourceManager.GetObject("1.2g", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1066310568 {
+            get {
+                object obj = ResourceManager.GetObject("1066310568", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _160_F_109916990_tayfCWL9Fq32YyRxf2bEM5FOGJlc8Iis {
             get {
                 object obj = ResourceManager.GetObject("160_F_109916990_tayfCWL9Fq32YyRxf2bEM5FOGJlc8Iis", resourceCulture);
@@ -76,6 +106,16 @@ namespace primeiraguerra.desk.Properties {
         internal static System.Drawing.Bitmap _16740821 {
             get {
                 object obj = ResourceManager.GetObject("16740821", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Check_icon {
+            get {
+                object obj = ResourceManager.GetObject("Check-icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +153,69 @@ namespace primeiraguerra.desk.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap giphy {
+            get {
+                object obj = ResourceManager.GetObject("giphy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap giphy__1_ {
+            get {
+                object obj = ResourceManager.GetObject("giphy (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap giphy1 {
+            get {
+                object obj = ResourceManager.GetObject("giphy1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap guerra2 {
+            get {
+                object obj = ResourceManager.GetObject("guerra2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap guerra2__1_ {
+            get {
+                object obj = ResourceManager.GetObject("guerra2_(1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap images {
             get {
                 object obj = ResourceManager.GetObject("images", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap images1 {
+            get {
+                object obj = ResourceManager.GetObject("images1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,6 +253,46 @@ namespace primeiraguerra.desk.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap s9bPVaK {
+            get {
+                object obj = ResourceManager.GetObject("s9bPVaK", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Segunda_Guerra_Mundial {
+            get {
+                object obj = ResourceManager.GetObject("Segunda-Guerra-Mundial", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Segunda_Guerra_Mundial1 {
+            get {
+                object obj = ResourceManager.GetObject("Segunda-Guerra-Mundial1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Segunda_Guerra_Mundial2 {
+            get {
+                object obj = ResourceManager.GetObject("Segunda-Guerra-Mundial2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap symbol_909831_960_720 {
             get {
                 object obj = ResourceManager.GetObject("symbol-909831_960_720", resourceCulture);
@@ -176,6 +316,16 @@ namespace primeiraguerra.desk.Properties {
         internal static System.Drawing.Bitmap verificar_contorno_preto_marca_318_49519 {
             get {
                 object obj = ResourceManager.GetObject("verificar-contorno-preto-marca_318-49519", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap verificar_contorno_preto_marca_318_495191 {
+            get {
+                object obj = ResourceManager.GetObject("verificar-contorno-preto-marca_318-495191", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
