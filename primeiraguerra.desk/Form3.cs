@@ -302,7 +302,8 @@ namespace primeiraguerra.desk
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Close();
+            panel10.Visible = false;
+            p4.Visible = true;
         }
 
         private void q5r5p2_CheckedChanged(object sender, EventArgs e)

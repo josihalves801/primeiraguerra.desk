@@ -79,11 +79,13 @@
             this.q5r2p3 = new System.Windows.Forms.RadioButton();
             this.q5r1p3 = new System.Windows.Forms.RadioButton();
             this.label4 = new System.Windows.Forms.Label();
+            this.p3 = new System.Windows.Forms.PictureBox();
             this.panel10.SuspendLayout();
             this.panel11.SuspendLayout();
             this.panel12.SuspendLayout();
             this.panel13.SuspendLayout();
             this.panel14.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.p3)).BeginInit();
             this.SuspendLayout();
             // 
             // panel10
@@ -744,12 +746,23 @@
             this.label4.Text = "5)Além do assassinato do Arquiduque Francisco Ferdinando, teve outros fatores par" +
     "a a \"explosão da guerra\". Assinale a alternativa correta:";
             // 
+            // p3
+            // 
+            this.p3.Image = global::primeiraguerra.desk.Properties.Resources.giphy__2_;
+            this.p3.Location = new System.Drawing.Point(424, 195);
+            this.p3.Name = "p3";
+            this.p3.Size = new System.Drawing.Size(422, 264);
+            this.p3.TabIndex = 2;
+            this.p3.TabStop = false;
+            this.p3.Visible = false;
+            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::primeiraguerra.desk.Properties.Resources._1_1g;
             this.ClientSize = new System.Drawing.Size(1184, 801);
+            this.Controls.Add(this.p3);
             this.Controls.Add(this.panel13);
             this.Controls.Add(this.panel14);
             this.Controls.Add(this.panel12);
@@ -769,6 +782,7 @@
             this.panel13.PerformLayout();
             this.panel14.ResumeLayout(false);
             this.panel14.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.p3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -825,5 +839,6 @@
         private System.Windows.Forms.RadioButton q5r2p3;
         private System.Windows.Forms.RadioButton q5r1p3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.PictureBox p3;
     }
 }

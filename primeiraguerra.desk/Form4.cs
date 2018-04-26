@@ -268,7 +268,8 @@ namespace primeiraguerra.desk
 
         private void button5_Click(object sender, EventArgs e)
         {
-            Close();
+            panel14.Visible = false;
+            p3.Visible = true;
         }
 
         private void Form4_Load(object sender, EventArgs e)

@@ -80,6 +80,7 @@
             this.q4r1p2 = new System.Windows.Forms.RadioButton();
             this.label5 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
+            this.p4 = new System.Windows.Forms.PictureBox();
             this.q5r5p2 = new System.Windows.Forms.RadioButton();
             this.button4 = new System.Windows.Forms.Button();
             this.t5 = new System.Windows.Forms.Button();
@@ -94,6 +95,7 @@
             this.panel8.SuspendLayout();
             this.panel9.SuspendLayout();
             this.panel10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.p4)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -762,6 +764,16 @@
             this.panel10.TabIndex = 1;
             this.panel10.Visible = false;
             // 
+            // p4
+            // 
+            this.p4.Image = global::primeiraguerra.desk.Properties.Resources.giphy__3_;
+            this.p4.Location = new System.Drawing.Point(111, 174);
+            this.p4.Name = "p4";
+            this.p4.Size = new System.Drawing.Size(483, 207);
+            this.p4.TabIndex = 3;
+            this.p4.TabStop = false;
+            this.p4.Visible = false;
+            // 
             // q5r5p2
             // 
             this.q5r5p2.AutoSize = true;
@@ -887,6 +899,7 @@
             this.BackgroundImage = global::primeiraguerra.desk.Properties.Resources.guerra2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1184, 801);
+            this.Controls.Add(this.p4);
             this.Controls.Add(this.panel10);
             this.Controls.Add(this.panel9);
             this.Controls.Add(this.panel8);
@@ -907,6 +920,7 @@
             this.panel9.PerformLayout();
             this.panel10.ResumeLayout(false);
             this.panel10.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.p4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -975,5 +989,6 @@
         private System.Windows.Forms.RadioButton q5r2p2;
         private System.Windows.Forms.RadioButton q5r1p2;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.PictureBox p4;
     }
 }

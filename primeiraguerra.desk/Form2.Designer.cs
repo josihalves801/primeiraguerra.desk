@@ -346,7 +346,6 @@
             // 
             this.panel5.BackColor = System.Drawing.Color.SandyBrown;
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel5.Controls.Add(this.p2);
             this.panel5.Controls.Add(this.q5r5);
             this.panel5.Controls.Add(this.button6);
             this.panel5.Controls.Add(this.btnt);
@@ -364,10 +363,11 @@
             // 
             // p2
             // 
+            this.p2.BackColor = System.Drawing.Color.Transparent;
             this.p2.Image = global::primeiraguerra.desk.Properties.Resources.s9bPVaK;
-            this.p2.Location = new System.Drawing.Point(74, 118);
+            this.p2.Location = new System.Drawing.Point(400, 261);
             this.p2.Name = "p2";
-            this.p2.Size = new System.Drawing.Size(446, 208);
+            this.p2.Size = new System.Drawing.Size(548, 494);
             this.p2.TabIndex = 9;
             this.p2.TabStop = false;
             this.p2.Visible = false;
@@ -748,6 +748,7 @@
             this.BackgroundImage = global::primeiraguerra.desk.Properties.Resources.Segunda_Guerra_Mundial2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1184, 801);
+            this.Controls.Add(this.p2);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);

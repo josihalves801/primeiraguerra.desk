@@ -311,8 +311,9 @@ namespace primeiraguerra.desk
 
         private void button6_Click(object sender, EventArgs e)
         {
-            panel5.Visible = false;
             p2.Visible = true;
+            panel5.Visible = false;
+
             
         }
 
